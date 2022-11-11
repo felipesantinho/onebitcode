@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+    p {
+      text-align: justify;
+      text-indent: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  
+<div class="container mt-5">
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      Veja uma curiosidade!
+    </a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sobrenomes</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+          <div>
+            <p>"Quando você não tinha fama por algo ou não se distinguia por uma razão qualquer, o seu sobrenome poderia ser muito bem criado pelo simples fato de ser filho de alguém. Na Europa, esse costume se tornou bastante comum e pode ser visto alguns sobrenomes como MacAlister (“filho de Alister”), Johansson (“filho de Johan”) ou Petersen (“filho de Peter”). No caso do português, esse mesmo hábito pode ser detectado em sobrenomes como Rodrigues (“filho de Rodrigo”) ou Fernandes (“filho de Fernando”).</p>
+            <p>Hoje em dia, algumas pessoas têm o interesse de remontarem a sua arvore genealógica ou conhecer as origens da família que lhe deu sobrenome. Talvez, observando algumas características do próprio sobrenome, elas possam descobrir um pouco da história que se esconde por detrás do mesmo. Afinal de contas, o importante é saber que a ausência desses “auxiliares” nos tornaria mais um entre os demais."</p>
+          </div>
+          <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Outras curiosidades...
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Origem do Trem</a></li>
+                  <li><a class="dropdown-item" href="#">Origem do Carro</a></li>
+                  <li><a class="dropdown-item" href="#">Origem do Barbeador</a></li>
+              </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
